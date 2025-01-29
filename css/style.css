@@ -1,0 +1,198 @@
+body, h1, p, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.logo {
+    margin: 20px;
+}
+
+.img-logo{
+    width: 150px;
+    height: 150px;
+}
+
+
+.form-container {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #cfd8dc; 
+}
+
+.form-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #008c00; 
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #008c00; 
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b0bec5;
+    border-radius: 15px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    transition: 0.3s; 
+}
+
+.form-group input:focus {
+    border-color: #008c00;
+    outline: none;
+}
+
+.form-group input[type="file"] {
+    padding: 5px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #008c00; 
+    color: #ffffff; 
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #ff6600; 
+}
+
+.form-group button:focus {
+    outline: 2px solid #008c00;
+    outline-offset: 2px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+ul li strong {
+    color: #00796b; 
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #008c00; 
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 14px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #ff6600; 
+}
+
+.titulo-retorno {
+    color: #008c00;
+
+}
+
+.titulo-lista-empresas{
+    color: #008c00;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    
+    
+}
+
+.table-container {
+    width:100%;
+    overflow-x: auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px; 
+    text-align: left; 
+}
+
+th {
+    color: #008c00;
+}
+
+th:hover {
+    color: #ff6600;
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .form-container {
+        padding: 15px 20px;
+    }
+
+    .form-container h1 {
+        font-size: 20px;
+    }
+
+    .form-group input,
+    .form-group button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-container {
+        padding: 10px 15px;
+    }
+
+    .form-container h1 {
+        font-size: 18px;
+    }
+
+    .form-group input,
+    .form-group button {
+        font-size: 12px;
+        padding: 6px;
+    }
+}
