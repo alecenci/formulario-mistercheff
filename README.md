@@ -65,7 +65,7 @@ Colocar os arquivos no diretório do servidor local:
 Copie os arquivos do projeto para o diretório de sua instalação XAMPP. Por exemplo, o diretório seria htdocs/formulario-mistercheff.
 
 Acessar a aplicação:
-Abra seu navegador e acesse http://localhost/formulario-mistercheff/index.html.
+Abra seu navegador e acesse http://localhost/formulario-mistercheff/index.php
 
 Preencher o Formulário:
 Complete os campos do formulário e envie os dados. O servidor PHP processará os dados e os salvará no banco de dados.
